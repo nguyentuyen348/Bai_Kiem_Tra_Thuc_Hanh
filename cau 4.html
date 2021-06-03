@@ -23,8 +23,8 @@
     render(){
       ctx.beginPath()
       ctx.arc(this.x,this.y,this.radius,0,2*Math.PI)
-      ctx.strokeStyle=this.color;
-      ctx.stroke();
+      ctx.fillstyle=this.color;
+      ctx.fill();
       ctx.closePath();
     }
   }
