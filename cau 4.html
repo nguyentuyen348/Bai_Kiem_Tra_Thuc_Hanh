@@ -25,11 +25,13 @@
       ctx.arc(this.x,this.y,this.radius,0,2*Math.PI)
       ctx.strokeStyle=this.color;
       ctx.stroke();
-      cxt.closePath();
+      ctx.closePath();
     }
   }
   let circle1=new Circle(10,10,100,'#000000');
   circle1.render();
+  let circle2=new Circle(200,200,50,'#ff3333');
+  circle2.render();
 </script>
 
 </html>
